@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priyanshu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Style.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-purple-100 md:bg-purple-100">
+    <!-- NAVBAR STARTS HERE -->
+
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-10 text-white">
+      <nav class="flex justify-between items-center my-container h-24">
+        <!-- LOGO -->
+        <a href="#" class="logo text-4xl font-bold">Priyanshu.</a>
+
+        <!-- Desktop -->
+        <ul class="md:flex items-center gap-14 hidden">
+          <li>
+            <a
+              href="#Home"
+              class="underline underline-offset-8 text-[18px] hover:text-gray-400"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#About"
+              class="underline underline-offset-8 text-[18px] hover:text-gray-400"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Skills"
+              class="underline underline-offset-8 text-[18px] hover:text-gray-400"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Works"
+              class="underline underline-offset-8 text-[18px] hover:text-gray-400"
+              >Works</a
+            >
+          </li>
+          <li>
+            <a
+              href="#Contact"
+              class="underline underline-offset-8 text-[18px] hover:text-gray-400"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Hamburger -->
+        <a href="#" id="burger" class="text-3xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <ul
+      id="menu"
+      class="flex flex-col items-center justify-center gap-8 md:hidden absolute left-0 top-0 bottom-0 bg-white w-60 -translate-x-full transiton:transform duration-300"
+    >
+      <li>
+        <a href="#Home" class="uppercase text-[18px] hover:text-gray-400"
+          >Home</a
+        >
+      </li>
+      <li>
+        <a href="#About" class="uppercase text-[18px] hover:text-gray-400"
+          >About</a
+        >
+      </li>
+      <li>
+        <a href="#Skills" class="uppercase text-[18px] hover:text-gray-400"
+          >Skills</a
+        >
+      </li>
+      <li>
+        <a href="#Works" class="uppercase text-[18px] hover:text-gray-400"
+          >Works</a
+        >
+      </li>
+      <li>
+        <a href="#Contact" class="uppercase text-[18px] hover:text-gray-400"
+          >Contact</a
+        >
+      </li>
+    </ul>
+
+    <!-- Section Starts Here -->
+
+    <main>
+      <!-- Hero Sectoin -->
+      <section
+        id="Home"
+        class="flex items-center justify-center bg-[url(/Image/Nature_bg.jpg)] bg-center bg-cover h-screen"
+      >
+        <div class="my-container">
+          <h1
+            id="typing"
+            class="text-5xl md:text-8xl text-white font-semibold tracking-tighter h-30"
+          ></h1>
+
+          <!-- Social Icons -->
+          <ul class="flex items-center justify-center gap-8">
+            <li>
+              <a
+                href="https://www.instagram.com/salaazar09?igsh=ZG43aGFuMHo1Nmxp"
+                class="text-white text-xl hover:text-gray-300"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/SALAZAR009"
+                class="text-white text-xl hover:text-gray-300"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/priyanshu-1615p/"
+                class="text-white text-xl hover:text-gray-300"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.artstation.com/salazar1615"
+                class="text-white text-xl hover:text-gray-300"
+              >
+                <i class="fa-brands fa-artstation"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://x.com/Salazaar_1615"
+                class="text-white text-xl hover:text-gray-300"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="About">
+        <div
+          class="my-container section-pb flex md:flex-row flex-col items-center justify-content gap-10"
+        >
+          <img src="Image/mypic.jpg" class="w-full md:w-1/3 mt-10" />
+
+          <div>
+            <h2
+              class="text-neutral-800 text-4xl/12 md:text-5xl/16 md:max-w-lg mt-10"
+            >
+              I'm Priyanshu, Game developer from India, Madhya Pradesh.
+            </h2>
+            <p class="text-gray-500 mt-8 mb-10 text-sm/7 md:text-base/8">
+              For me, game development is more than just creating games—it’s
+              about crafting meaningful experiences that spark joy, excitement,
+              and connection. It’s the perfect fusion of creativity and
+              technology, where art meets logic. I find immense satisfaction in
+              bringing ideas to life, ensuring every line of code and mechanic
+              contributes to a story, a challenge, or an unforgettable moment.
+              With over 2 years of experience, I specialize in designing
+              immersive gameplay and dynamic combat systems. Proficient in C++
+              and Java, I leverage my technical skills to transform imagination
+              into polished, interactive worlds. My dedication to game
+              development runs deep—I’m constantly learning, refining, and
+              experimenting to push creative and technical boundaries. For me,
+              game development is a passion, not just a career. Whether it’s
+              coding late into the night, perfecting mechanics, or overcoming
+              challenges, I’m driven by the belief that games can inspire,
+              connect, and leave a lasting impact on players around the world.
+            </p>
+
+            <a
+              href="PRIYANSHU JHARIYA.pdf"
+              class="bg-purple-300 text-sm text-neutral-800 p-2 tracking-widest hover:bg-purple-500 mb-10"
+              download
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- What I Do -->
+
+      <section id="Skills">
+        <div class="my-container section-pb items-center">
+          <h3 class="text-5xl text-neutral-800 mt-30">What I Do</h3>
+          <div class="flex md:flex-row flex-col mt-20 mb-10 gap-14">
+            <div>
+              <i class="fa-solid fa-gamepad text-4xl text-purple-400"></i>
+              <h5
+                class="text-neutral-800 text-sm tracking-widest my-3 font-semibold uppercase class="
+              >
+                Game Developement
+              </h5>
+              <p class="text-grey-500 text-sm">
+                I bring ideas to life through immersive gameplay and engaging
+                mechanics. With a blend of creativity and technical skill, I
+                craft experiences that excite, challenge, and connect players.
+              </p>
+            </div>
+            <div>
+              <i
+                class="fa-solid fa-screwdriver-wrench text-4xl text-purple-400"
+              ></i>
+              <h5
+                class="text-neutral-800 text-sm tracking-widest my-3 font-semibold uppercase class="
+              >
+                Game Mechanics
+              </h5>
+              <p class="text-grey-500 text-sm">
+                I craft engaging, intuitive mechanics that drive gameplay and
+                enhance player experience. Every system is designed to be fun,
+                balanced, and seamlessly integrated, ensuring a smooth and
+                rewarding interaction.
+              </p>
+            </div>
+            <div>
+              <i class="fa-solid fa-gun text-4xl text-purple-400"></i>
+              <h5
+                class="text-neutral-800 text-sm tracking-widest my-3 font-semibold uppercase class="
+              >
+                Combat System
+              </h5>
+              <p class="text-grey-500 text-sm">
+                I craft fluid, responsive, and engaging combat mechanics,
+                ensuring every attack and movement feels impactful and
+                intuitive. My focus is on creating balanced, immersive, and
+                satisfying combat experiences.
+              </p>
+            </div>
+          </div>
+          <div class="flex md:flex-row flex-col mt-14 gap-14">
+            <div>
+              <i class="fa-solid fa-mountain-sun text-4xl text-purple-400"></i>
+              <h5
+                class="text-neutral-800 text-sm tracking-widest my-3 font-semibold uppercase class="
+              >
+                Environment Design
+              </h5>
+              <p class="text-grey-500 text-sm">
+                I create detailed, atmospheric worlds that enhance gameplay and
+                storytelling. Every environment is designed to be visually
+                captivating, immersive, and rich with depth, drawing players
+                into unforgettable experiences.
+              </p>
+            </div>
+            <div>
+              <i class="fa-solid fa-film text-4xl text-purple-400"></i>
+              <h5
+                class="text-neutral-800 text-sm tracking-widest my-3 font-semibold uppercase class="
+              >
+                Game Cinematic
+              </h5>
+              <p class="text-grey-500 text-sm">
+                I design captivating in-game cinematics that elevate
+                storytelling and deepen player engagement. By blending dynamic
+                visuals with powerful narratives, I create cinematic moments
+                that leave a lasting impact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Work -->
+      <section id="Works">
+        <div class="my-container section-pb">
+          <h3 class="text-5xl text-neutral-800 mt-30">My Projects</h3>
+          <div class="flex md:flex-row flex-col gap-14 mt-10">
+            <a
+              href="https://youtu.be/r1aqQMwv9ak"
+              class="hover:-translate-y-3 transiton-transform duration-300"
+            >
+              <img src="Image/Game.png" />
+            </a>
+            <a
+              href="https://www.instagram.com/reel/DGk-pZnthEj/?utm_source=ig_web_copy_link"
+              class="hover:-translate-y-3 transiton-transform duration-300"
+            >
+              <img src="Image/Combat System.png" />
+            </a>
+            <a
+              href="https://youtu.be/E3Fdqb7UB9Q"
+              class="hover:-translate-y-3 transiton-transform duration-300"
+            >
+              <img src="Image/Enviroment.png" />
+            </a>
+          </div>
+          <div class="flex md:flex-row flex-col gap-14 mt-10">
+            <a
+              href="https://youtu.be/FnCTaUng9Q8"
+              class="hover:-translate-y-3 transiton-transform duration-300"
+            >
+              <img src="Image/Game Mechanic.png" />
+            </a>
+            <a
+              href="https://www.instagram.com/reel/DGlCU91OvYV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              class="hover:-translate-y-3 transiton-transform duration-300"
+            >
+              <img src="Image/Cinematic.png" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="Contact" class="bg-purple-100 md:bg-purple-100">
+        <div class="my-container section-pb text-center">
+          <h3 class="text-4xl text-neutral-800 mt-30 mb-10 ">Contact Information</h3>
+          <h1>priyanshujhariya1604@gmail.com</h1>
+          <h1>8827491009</h1>
+          <h1>Jabalpur, Madhya Pradesh, India</h1>
+          
+          
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Starts Here -->
+
+    <footer class="bg-purple-200 md:bg-purple-200">
+      <div class="flex flex-col items-center py-15 text-center">
+        <!-- Social Icons -->
+        <ul class="flex gap-14">
+          <li
+            class="h-10 w-10 border-2 border-gray-200 rounded-full leading-10 hover:border-neutral-800 duration-300"
+          >
+            <a
+              href="https://www.instagram.com/salaazar09?igsh=ZG43aGFuMHo1Nmxp"
+              class="text-neutral-800 text-xl"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li
+            class="h-10 w-10 border-2 border-gray-200 rounded-full leading-10 hover:border-neutral-800 duration-300"
+          >
+            <a
+              href="https://github.com/SALAZAR009"
+              class="text-neutral-800 text-xl"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li
+            class="h-10 w-10 border-2 border-gray-200 rounded-full leading-10 hover:border-neutral-800 duration-300"
+          >
+            <a
+              href="https://www.linkedin.com/in/priyanshu-1615p/"
+              class="text-neutral-800 text-xl"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li
+            class="h-10 w-10 border-2 border-gray-200 rounded-full leading-10 hover:border-neutral-800 duration-300"
+          >
+            <a
+              href="https://www.artstation.com/salazar1615"
+              class="text-neutral-800 text-xl"
+            >
+              <i class="fa-brands fa-artstation"></i>
+            </a>
+          </li>
+          <li
+            class="h-10 w-10 border-2 border-gray-200 rounded-full leading-10 hover:border-neutral-800 duration-300"
+          >
+            <a
+              href="https://x.com/Salazaar_1615"
+              class="text-neutral-800 text-xl"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+        <div
+          class="flex flex-col items-center justify-center py-15 text-center"
+        >
+          <p class="text-sm text-gray-500">
+            &copy;2025 Priyanshu. all rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
